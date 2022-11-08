@@ -1,0 +1,32 @@
+table {
+    width: 100%;
+    border : 1px solid lightgrey ;
+ 	border-collapse : collapse;
+ 	font-weight: bold;
+  }
+  th, td {
+    padding: 10px;
+    border : 1px solid lightgrey ;
+ 	border-collapse : collapse;
+ 	font-weight: bold;
+  }
+  
+  thead tr {
+    background-color: #43997b;
+   	color:white;
+  }
+  tbody tr:nth-child(2n) {
+  	background-color: #e5e5e5;
+    
+  }
+  tbody tr:nth-child(2n+1) {
+    background-color: #f7f7f7;
+  }
+  
+  div, #td_id{
+  	text-align: center;
+  }
+  
+ #button {
+  	font-weight: bold;
+  }

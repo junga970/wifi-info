@@ -95,7 +95,7 @@ public class ApiExplorer {
 				wifiInfo.setLnt(lnt);
 				wifiInfo.setWorkDttm(workDttm);
 				
-				wifiinfo.WifiInfoService.dbInsert(wifiInfo);
+			    WifiInfoService.dbInsert(wifiInfo);
 			}
 		}
 	}

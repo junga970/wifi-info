@@ -5,7 +5,7 @@ import lombok.Getter;
 
 @Setter
 @Getter
-public class WifiInfo {
+public class WifiInfo implements Comparable<WifiInfo>{
 	String wifiMgrNo;
 	String wifiWrdofc;
 	String wifiMainNm;
@@ -21,5 +21,17 @@ public class WifiInfo {
 	String wifiRemars3;
 	Double lat;
 	Double lnt;
+	Double distance;
 	String workDttm;
+
+	@Override
+	public int compareTo(WifiInfo o) {
+		if (this.distance > o.distance) {
+			return 1;
+		} else if (this.distance < o.distance) {
+			return -1;
+		} else {
+			return 0;
+		}
+	}
 }
