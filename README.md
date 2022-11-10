@@ -35,19 +35,20 @@
 
 
 ## 📌 주요 기능
-#### 1. 공공 와이파이 정보 가져오기 
+#### 1. 공공 와이파이 정보 가져오기 - <a href="https://github.com/junga970/wifi-info/wiki/%F0%9F%93%8C-%EA%B3%B5%EA%B3%B5-%EC%99%80%EC%9D%B4%ED%8C%8C%EC%9D%B4-%EC%A0%95%EB%B3%B4-%EA%B0%80%EC%A0%B8%EC%98%A4%EA%B8%B0" > 상세보기 </a>
+ 
 - OpenAPI 파싱(Json)
 - DB(wifi_info) - 공공 와이파이 정보 저장
 
-#### 2. 내 위치 가져오기 
+#### 2. 내 위치 가져오기 - <a href="https://github.com/junga970/wifi-info/wiki/%F0%9F%93%8C-%EB%82%B4-%EC%9C%84%EC%B9%98-%EA%B0%80%EC%A0%B8%EC%98%A4%EA%B8%B0" > 상세보기 </a> 
 - Geolocation API 사용
 
-#### 3. 검색한 위치와 가까운 와이파이 목록 조회 
+#### 3. 검색한 위치와 가까운 와이파이 목록 조회 - <a href="https://github.com/junga970/wifi-info/wiki/%F0%9F%93%8C-%EA%B2%80%EC%83%89%ED%95%9C-%EC%9C%84%EC%B9%98%EC%99%80-%EA%B0%80%EA%B9%8C%EC%9A%B4-%EC%99%80%EC%9D%B4%ED%8C%8C%EC%9D%B4-%EB%AA%A9%EB%A1%9D-%EC%A1%B0%ED%9A%8C" > 상세보기 </a> 
 - DB(history) - 검색한 위치 정보 저장
 - 모든 공공 와이파이 위치와 검색한 위치의 거리 계산
 - 가까운 순으로 목록 출력(20개 제한)
 
-#### 4. 검색한 위치에 대한 히스토리 목록 조회 
+#### 4. 검색한 위치에 대한 히스토리 목록 조회 - <a href="https://github.com/junga970/wifi-info/wiki/%F0%9F%93%8C-%EA%B2%80%EC%83%89%ED%95%9C-%EC%9C%84%EC%B9%98%EC%97%90-%EB%8C%80%ED%95%9C-%ED%9E%88%EC%8A%A4%ED%86%A0%EB%A6%AC-%EB%AA%A9%EB%A1%9D-%EC%A1%B0%ED%9A%8C" > 상세보기 </a> 
 - DB(history) - 목록 출력
 
 

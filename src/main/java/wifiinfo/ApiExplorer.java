@@ -14,7 +14,7 @@ import com.google.gson.JsonObject;
 
 
 public class ApiExplorer {
-	
+
 	public static final int COUNT_LIMIT = 1000;
 	public static final String SAMPLE_URL = "http://openapi.seoul.go.kr:8088/sample/json/TbPublicWifiInfo/1/1";
 	
@@ -22,10 +22,9 @@ public class ApiExplorer {
 		
 		int listTotalCount = getListTotalCount();
 		int loopCount = listTotalCount / COUNT_LIMIT + 1;		
-
+		
 		for (int i = 0, j = 1; i < loopCount; i++, j += COUNT_LIMIT) {
 			StringBuilder urlBuilder = new StringBuilder("http://openapi.seoul.go.kr:8088"); 
-
 			urlBuilder.append("/" + URLEncoder.encode(wifiinfo.ApiKey.wifiApiKey,"UTF-8")); 
 			urlBuilder.append("/" + URLEncoder.encode("json","UTF-8"));
 			urlBuilder.append("/" + URLEncoder.encode("TbPublicWifiInfo","UTF-8")); 
@@ -101,7 +100,7 @@ public class ApiExplorer {
 	}
 	
 	public static int getListTotalCount() throws IOException {
-	
+	    
 		URL url = new URL(SAMPLE_URL);
 		HttpURLConnection conn = (HttpURLConnection) url.openConnection();
 		conn.setRequestMethod("GET");

@@ -27,7 +27,7 @@
 			LAT: <input type="text" id = "lat_id" name="lat" value="<%=lat != null ? lat : "0.0"%>"> , &nbsp; 
 			LNT: <input type="text" id = "lnt_id" name="lnt" value="<%=lnt != null ? lnt : "0.0"%>">
 			<button type="button" onclick="getLocation()"> 내 위치 가져오기 </button>
-			<input type='submit' onclick="getValue()" value="근처 WIFI 정보 보기"/>
+			<input type='submit' value="근처 WIFI 정보 보기"/>
 		</form>
 	</p>
 	
